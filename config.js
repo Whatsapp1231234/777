@@ -62,9 +62,9 @@ global.confirmCode = "" // No tocar esto : Do not touch this line
 // [EN] > I added one of the languages available for the Bot in "mid".
 
 // ❰❰ IDIOMAS DISPONIBLES : AVAILABLE LANGUAGES ❱❱
-// Español 👉 es           
+// Español 👉 en           
 // English 👉 en
-global.lenguajeGB = es
+global.lenguajeGB = en
 global.mid = esDefault
 global.version_language = '1.0 (MID-GB)'
 

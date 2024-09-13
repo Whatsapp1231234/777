@@ -26,5 +26,5 @@ handler.command = handler.help = [
   "googlelyrics",
 ];
 handler.limit = 1
-handler.register = true
+
 export default handler;

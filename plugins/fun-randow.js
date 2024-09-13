@@ -40,7 +40,7 @@ m.reply(ejemplo + data + organizar)
 }}
 handler.tags = ['fun']
 handler.command = ['piropo', 'chiste', 'reto', 'verdad', 'frases']
-handler.register = true
+
 export default handler
 
 function pickRandom(list) {

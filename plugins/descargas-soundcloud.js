@@ -46,7 +46,7 @@ if (!text) throw `Ingresa el nombre de la canción a buscar`;
 
 handler.command = /^(soundcloud|soundcloudr)$/i
 handler.limit = 1
-handler.register = true
+
 export default handler
 
 const delay = time => new Promise(res => setTimeout(res, time))

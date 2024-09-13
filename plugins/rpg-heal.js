@@ -36,7 +36,7 @@ conn.sendButton(m.chat, `*━┈━《 ✅ 𝙎𝘼𝙇𝙐𝘿 𝘾𝙊𝙈𝙋
 handler.help = ['heal']
 handler.tags = ['rpg']
 handler.command = /^(heal|curar)$/i
-handler.register = true
+
 export default handler
 
 function isNumber(number) {

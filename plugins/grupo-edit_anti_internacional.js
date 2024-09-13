@@ -111,6 +111,6 @@ return
   
 }
 handler.command = /^(editarantifake|editarfake|editantifake|editfake)$/i
-handler.register = true
+
 handler.group = true
 export default handler

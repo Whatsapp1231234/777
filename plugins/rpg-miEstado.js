@@ -50,5 +50,5 @@ conn.sendButton(m.chat, eg + `*GENIAL!! SE HA AGREGADO UN ESTADO*\n*- - - - - - 
 miEstado = 0
 }}
 handler.command = ['miestado'] 
-handler.register = true
+
 export default handler

@@ -596,7 +596,7 @@ handler.tags = ['games']
 handler.command = /^(ppt|suitpvp|suit|pvp|launch|lanzar|luck|slot|apostar|slot1|slot2|slot3|tictactoe|ttc|ttt|xo|math|mates|matemáticas|matematicas|delttt|deltt|delxo|deltictactoe)$/i
 handler.group = true
 handler.game = true
-handler.register = true
+
 export default handler
 
 function pickRandom(list) {

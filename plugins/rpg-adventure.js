@@ -58,7 +58,7 @@ ${cmenua}`
 handler.help = ['adventure']
 handler.tags = ['rpg']
 handler.command = /^(adventure|adv|aventura|aventurar)$/i
-handler.register = true
+
 handler.cooldown = cooldown
 handler.disabled = false
 

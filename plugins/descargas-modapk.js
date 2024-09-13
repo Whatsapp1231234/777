@@ -33,7 +33,7 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}
 }
 handler.command = /^(apkmod|apk|modapk|dapk2|aptoide|aptoidedl|apkmodr)$/i;
-handler.register = true
+
 handler.limit = 2
 export default handler;
 
@@ -58,7 +58,7 @@ console.log(e)
 handler.limit = false
 }};
 handler.command = /^(apkmod|apk|modapk|dapk2|aptoide|aptoidedl)$/i;
-handler.register = true
+
 handler.limit = 2
 export default handler;
 */

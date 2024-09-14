@@ -68,24 +68,83 @@ let pp = gataVidMenu
 let fsizedoc = '1'.repeat(10)
 let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardingScore: fsizedoc, externalAdReply: { showAdAttribution: true, title: wm, body: '👋 ' + username, mediaUrl: ig, description: 'Hola', previewType: 'PHOTO', thumbnail: await(await fetch(gataMenu)).buffer(), sourceUrl: redesMenu }}}
 
-let str = `
-╭┄〔 *${wm}* 〕┄⊱
-┊ *🎶 ${lenguajeGB['smsConfi2']()} ${username}*
-┊დ *${week}, ${date}*
-┊დ *${lenguajeGB['smsBotonM4']()} » ${Object.keys(global.db.data.users).length}* 
-┊
-┊დ *${lenguajeGB['smsBotonM5']()} »* ${role}
-┊დ *${lenguajeGB['smsBotonM6']()} » ${level}*
-┊
-╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
+let str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
+║    ◉— *Хулиган* —◉
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
+║➤ *Привет, ${taguser}*
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
+╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
 
-⠇ *${lenguajeGB['smsTex16']()}* 🔊
-⠇ ${lenguajeGB['smsTex17']()}
-∘ _Noche de paz_
-∘ _Buenos dias_
-∘ _Audio hentai_
-∘ _Fiesta del admin_
-∘ _Fiesta del admin 2_
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ *<ღ꧁ *ГОЛОСОВЫЕ* ꧂ღ>*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ *- ${_translate.plugins.menu_audios.texto1}*
+┣ >>>>>>>>>>>>>>>>>>>>>>
+┣ ඬ⃟🔊 Красавчик
+┣ ඬ⃟🔊 Где все
+┣ ඬ⃟🔊 Что случилось
+┣ ඬ⃟🔊 Дай
+┣ ඬ⃟🔊 Группа
+┣ ඬ⃟🔊 Как дела
+┣ ඬ⃟🔊 Что нового
+┣ ඬ⃟🔊 Что делаешь
+┣ ඬ⃟🔊 Пока
+┣ ඬ⃟🔊 До свидания
+┣ ඬ⃟🔊 Псих
+┣ ඬ⃟🔊 Идиот
+┣ ඬ⃟🔊 Совет
+┣ ඬ⃟🔊 Жопа
+┣ ඬ⃟🔊 Как ты
+┣ ඬ⃟🔊 Дай
+┣ ඬ⃟🔊 Друг
+┣ ඬ⃟🔊 Как жизнь
+┣ ඬ⃟🔊 Девушка/и
+┣ ඬ⃟🔊 Чего
+┣ ඬ⃟🔊 Ух какая
+┣ ඬ⃟🔊 Страшная
+┣ ඬ⃟🔊 Мечта
+┣ ඬ⃟🔊 Молчуны
+┣ ඬ⃟🔊 Цель
+┣ ඬ⃟🔊 Слышь ты
+┣ ඬ⃟🔊 Кушаю
+┣ ඬ⃟🔊 От души
+┣ ඬ⃟🔊 😘
+┣ ඬ⃟🔊 Надоел
+┣ ඬ⃟🔊 Отвали
+┣ ඬ⃟🔊 Нет настроения
+┣ ඬ⃟🔊 Молодец
+┣ ඬ⃟🔊 Споки ноки 
+┣ ඬ⃟🔊 Заебал
+┣ ඬ⃟🔊 Врун
+┣ ඬ⃟🔊 Пиздабол
+┣ ඬ⃟🔊 Правила
+┣ ඬ⃟🔊 Здарова
+┣ ඬ⃟🔊 Кто ты
+┣ ඬ⃟🔊 Сука
+┣ ඬ⃟🔊 Секс
+┣ ඬ⃟🔊 Пошел ты
+┣ ඬ⃟🔊 Хи хи
+┣ ඬ⃟🔊 Помогите
+┣ ඬ⃟🔊 До завтра
+┣ ඬ⃟🔊 Красотка
+┣ ඬ⃟🔊 Блять
+┣ ඬ⃟🔊 Тупой/ая
+┣ ඬ⃟🔊 Ты кто
+┣ ඬ⃟🔊 Удали/ю
+┣ ඬ⃟🔊 Понедельник
+┣ ඬ⃟🔊 😡
+┣ ඬ⃟🔊 😭
+┣ ඬ⃟🔊 Кто звал
+┣ ඬ⃟🔊 Пришел
+┣ ඬ⃟🔊 Я тут
+┣ ඬ⃟🔊 Дурак
+┣ ඬ⃟🔊 Козел
+┣ ඬ⃟🔊 Лох
+┣ ඬ⃟🔊 Сюрприз
+┣ ඬ⃟🔊 Чмо
+┗━━━━━━━━━━━━━━━━
 
 
 `.trim()

@@ -13,9 +13,9 @@ let vn = 'https://qu.ax/xynz.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}  
 
-if (/^Chupame|Pingo|Qliao$/i.test(m.text) && chat.audios) {  
+if (/^Chupame|Pingo|дела$/i.test(m.text) && chat.audios) {  
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0    
-let vn = 'https://qu.ax/SCpi.mp3'
+let vn = './media/дела.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
@@ -65,10 +65,6 @@ let vn = './media/дела.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
-if (chat.audios && m.text.match(/(привет|Привет|Pokémon|pokémon)/gi)) {    
-let vn = 'media/привет.mp3'
-this.sendPresenceUpdate('recording', m.chat, vn )   
-this.sendMessage(m.chat, { audio: { vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
 if (chat.audios && m.text.match(/(En caso de una investigación|En caso de una investigacion|fbi|cia|nasa|detective|👤|🕵️‍|♀️🕵️‍♂️)/gi)) {    
 let vn = 'https://qu.ax/Syg.mp3'

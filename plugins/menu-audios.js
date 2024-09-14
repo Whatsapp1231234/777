@@ -302,9 +302,9 @@ rows: [
 {title: lenguajeGB['smsLista5'](), description: null, rowId: `${usedPrefix}infomenu`},
 {title: lenguajeGB['smsLista6'](), description: null, rowId: `${usedPrefix}allmenu`},  
   
-{title: "➥🔊 бот", description: null, rowId: `Noche de paz`},
-{title: "➥🔊 афигеть", description: null, rowId: `Buenos dias`},
-{title: "➥🔊 админ", description: null, rowId: `Audio hentai`},
+{title: "➥🔊 бот", description: null, rowId: `бот`},
+{title: "➥🔊 афигеть", description: null, rowId: `афигеть`},
+{title: "➥🔊 админы", description: null, rowId: `админы`},
 {title: "➥🔊 Fiesta del admin", description: null, rowId: `Fiesta del admin`},
 {title: "➥🔊 Fiesta del admin 2", description: null, rowId: `Fiesta del admin 2`},
 {title: "➥🔊 Fiesta del administrador", description: null, rowId: `Fiesta del administrador`},
@@ -462,7 +462,6 @@ handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
 handler.command = /^(меню2)$/i
 handler.exp = 60
-//handler.register = true
 export default handler
 
 const more = String.fromCharCode(8206)

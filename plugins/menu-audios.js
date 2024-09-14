@@ -302,9 +302,9 @@ rows: [
 {title: lenguajeGB['smsLista5'](), description: null, rowId: `${usedPrefix}infomenu`},
 {title: lenguajeGB['smsLista6'](), description: null, rowId: `${usedPrefix}allmenu`},  
   
-{title: "➥🔊 Noche de paz", description: null, rowId: `Noche de paz`},
-{title: "➥🔊 Buenos dias", description: null, rowId: `Buenos dias`},
-{title: "➥🔊 Audio hentai", description: null, rowId: `Audio hentai`},
+{title: "➥🔊 бот", description: null, rowId: `Noche de paz`},
+{title: "➥🔊 афигеть", description: null, rowId: `Buenos dias`},
+{title: "➥🔊 админ", description: null, rowId: `Audio hentai`},
 {title: "➥🔊 Fiesta del admin", description: null, rowId: `Fiesta del admin`},
 {title: "➥🔊 Fiesta del admin 2", description: null, rowId: `Fiesta del admin 2`},
 {title: "➥🔊 Fiesta del administrador", description: null, rowId: `Fiesta del administrador`},

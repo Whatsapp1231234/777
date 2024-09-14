@@ -50,7 +50,7 @@ if (media === 'audio') await this.sendFile(m.chat, vn, 'error.mp3', null, m, tru
 if (media === 'sticker') await conn.sendFile(m.chat, sticker, 'error.webp', '', m);
 }
     
-if (chat.audios && m.text.match(/(админы)/gi)) {    
+if (chat.audios && m.text.match(/(админ)/gi)) {    
 let vn = './media/админы.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}

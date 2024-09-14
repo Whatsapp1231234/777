@@ -111,9 +111,9 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)	
 }}
 
-handler.help = ['меню']
-handler.tags = ['меню']
-handler.command = ['меню'] 
+handler.help = ['меню2']
+handler.tags = ['меню2']
+handler.command = ['меню2'] 
 handler.exp = 60
 //
 export default handler

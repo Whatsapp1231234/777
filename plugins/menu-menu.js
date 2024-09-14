@@ -17,6 +17,7 @@ let user = global.db.data.users[m.sender]
 let bot = global.db.data.settings[conn.user.jid] || {}
 
 const commandsConfig = [
+
 ]
  
 try {
@@ -110,7 +111,13 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 
 > *_${formatDate}_*
 > \`${nombreLugar} - ${ciudad}\`
-
+Вапрвреолангл
+чапровыакпроваенл
+ароыяакповенл
+плыеншловангл
+аеноыегшщыкерычарнл
+вернофукеарыкенол
+ыкпероыкпоыеено
 
 `.trim()
 await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, m, fakeChannel, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})

@@ -24,22 +24,22 @@ let vn = 'https://qu.ax/PPgt.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })} 
 
-if (chat.audios && m.text.match(/(админы)/gi)) {
+if (chat.audios && m.text.match(/(bienveni|🥳|🤗)/gi)) {
 //let vn = './media/Bienvenido.mp3'
-let vn = './media/админы.mp3'
+let vn = 'https://qu.ax/cUYg.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 conn.sendMessage(m.chat, { audio: { url: vn }, contextInfo: { "externalAdReply": { "title": wm, "body": `🐈`, "previewType": "PHOTO", "thumbnailUrl": null,"thumbnail": imagen1, "sourceUrl": md, "showAdAttribution": true}}, ptt: true, mimetype: 'audio/mpeg', fileName: `error.mp3` }, { quoted: m })}
         
-if (chat.audios && m.text.match(/(афигеть)/gi)) {    
-let vn = './media/афигеть.mp3'
+if (chat.audios && m.text.match(/(Blackpink in your area|blackpink in your area|in your area|In your area)/gi)) {    
+let vn = 'https://qu.ax/pavq.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
-    
-if (chat.audios && m.text.match(/(бот)/gi)) {    
-let vn = '/media/бот.mp3'
+        
+if (chat.audios && m.text.match(/(Buen día grupo|Buen dia grupo)/gi)) {    
+let vn = 'https://qu.ax/GoKq.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
-    
+        
 if (chat.audios && m.text.match(/(Calla Fan de bts|bts|Amo a bts)/gi)) {
 let vn = 'https://qu.ax/oqNf.mp3'
 let sticker = 'https://qu.ax/rfHP.webp'
@@ -50,18 +50,18 @@ if (media === 'audio') await this.sendFile(m.chat, vn, 'error.mp3', null, m, tru
 if (media === 'sticker') await conn.sendFile(m.chat, sticker, 'error.webp', '', m);
 }
     
-if (chat.audios && m.text.match(/(Cambiate a Movistar|cambiate a Movistar|cambiate a movistar|Cambiate a movistar|movistar)/gi)) {    
-let vn = 'https://qu.ax/RxJC.mp3'
+if (chat.audios && m.text.match(/(админы)/gi)) {    
+let vn = './media/админы.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
-if (chat.audios && m.text.match(/(Corte Corte|corte|pelea|pelear|golpear|golpea)/gi)) {    
-let vn = 'https://qu.ax/hRuU.mp3'
+if (chat.audios && m.text.match(/(группа)/gi)) {    
+let vn = './media/группа.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
-if (chat.audios && m.text.match(/(El Toxico|El tóxico|Toxico|tóxico|malo|mala|estupido|estupida)/gi)) {    
-let vn = 'https://qu.ax/WzBd.mp3'
+if (chat.audios && m.text.match(/(дела)/gi)) {    
+let vn = './media/дела.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     

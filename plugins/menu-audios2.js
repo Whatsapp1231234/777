@@ -85,17 +85,9 @@ let str = `
 ∘ _Buenos dias_
 ∘ _Audio hentai_
 ∘ _Fiesta del admin_
-∘ _Fiesta del admin 2_
 
-
-╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                      🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈
-         0:40 ━❍──────── -8:39
-         ↻     ⊲  Ⅱ  ⊳     ↺
-         VOLUMEN: ▁▂▃▄▅▆▇ 100%
-╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
+`.trim()
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
- 
 const listMessage = {
 text: `${wm}`,
 footer: `*${lenguajeGB['smsTex16']()}*
@@ -113,7 +105,7 @@ console.log(e)
 
 handler.help = ['infomenu'].map(v => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^(меню2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
+handler.command = /^(menu2|audios|menú2|memu2|menuaudio|menuaudios|memuaudios|memuaudio|audios|audio)$/i
 handler.exp = 60
 //
 export default handler

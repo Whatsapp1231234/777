@@ -13,6 +13,6 @@ conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, 
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
 handler.tags = ['group']
-handler.command = /^(pedirayuda)$/i
+handler.command = /^(внимание)$/i
 handler.group = true
 export default handler

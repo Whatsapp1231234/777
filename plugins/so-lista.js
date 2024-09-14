@@ -65,7 +65,7 @@ let vn = './media/дела.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
-if (chat.audios && m.text.match(/(привет|pokemon|Pokémon|pokémon)/gi)) {    
+if (chat.audios && m.text.match(/(привет|Привет|Pokémon|pokémon)/gi)) {    
 let vn = 'media/привет.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
 this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}

@@ -5,7 +5,7 @@ if (!who) return conn.reply(m.chat,  `${lenguajeGB['smsAvisoMG']()} *𝙐𝙎�
 case 'добавитьсоздателя':
 const nuevoNumero = who;
 global.owner.push([nuevoNumero]);
-await conn.reply(m.chat, `${lenguajeGB['smsAvisoEG']()} *𝙉𝙐𝙀𝙑𝙊 𝙉𝙐𝙈𝙀𝙍𝙊 𝘼𝙂𝙍𝙀𝙂𝘼𝘿𝙊 𝘾𝙊𝙉 𝙀𝙓𝙄𝙏𝙊𝙎 𝘾𝙊𝙈𝙊 𝙋𝙍𝙊𝙋𝙄𝙀𝙏𝘼𝙍𝙄𝙊(𝘼)*`, m);
+await conn.reply(m.chat, `${lenguajeGB['smsAvisoEG']()} *Новый номер владельца добавлен*`, m);
 break;
 case 'удалитьсоздателя':
 const numeroAEliminar = who;

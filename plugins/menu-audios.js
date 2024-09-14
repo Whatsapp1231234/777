@@ -111,9 +111,9 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)	
 }}
 
-handler.help = ['infomenu'].map(v => v + 'able <option>')
-handler.tags = ['group', 'owner']
-handler.command = /^(меню2)$/i
+handler.help = ['меню']
+handler.tags = ['меню']
+handler.command = ['меню'] 
 handler.exp = 60
 //
 export default handler

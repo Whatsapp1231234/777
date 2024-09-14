@@ -77,7 +77,7 @@ https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
 
 🗣📲 *Contacto:*
 • wa.me/5214531287294
-• wa.me/573147616444
+• wa.me/+79011033947
 • wa.me/51928438472
 • ${ig}
 • https://www.facebook.com/elrebelde21`

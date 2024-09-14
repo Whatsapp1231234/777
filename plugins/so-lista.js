@@ -68,7 +68,7 @@ this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 
 if (chat.audios && m.text.match(/(привет|Привет|Pokémon|pokémon)/gi)) {    
 let vn = 'media/привет.mp3'
 this.sendPresenceUpdate('recording', m.chat, vn )   
-this.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
+this.sendMessage(m.chat, { audio: { vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m })}
     
 if (chat.audios && m.text.match(/(En caso de una investigación|En caso de una investigacion|fbi|cia|nasa|detective|👤|🕵️‍|♀️🕵️‍♂️)/gi)) {    
 let vn = 'https://qu.ax/Syg.mp3'

@@ -70,7 +70,6 @@ let adReply = { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: { forwardi
 
 let str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
 ║    ◉— *Хулиган* —◉
-║
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
 
